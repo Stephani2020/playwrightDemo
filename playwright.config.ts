@@ -37,15 +37,15 @@ export default defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
-    {
+    /*{
       name: "Chrome",
       use: { ...devices["Desktop Chrome"] },
-    },
+    },*/
 
-    /*{
+    {
       name: "firefox",
       use: { ...devices["Desktop Firefox"] },
-    },*/
+    },
 
     /*{
       name: 'webkit',

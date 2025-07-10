@@ -11,8 +11,7 @@ test("login", async ({ page }) => {
   await authentication.enterUserName();
 
   await authentication.enterPassword();
-  //await page.screenshot({ path: "screenshot/login.png", fullPage: true });
+
   await authentication.clickLoginButton();
   await inventoryPage.validateShoppingCart();
-  //await page.screenshot({ path: "screenshot/inventory.png", fullPage: true });
 });
