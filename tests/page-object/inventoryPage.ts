@@ -25,6 +25,7 @@ export class InventoryPage {
     await expect(this.addToCart).toBeVisible();
     await this.addToCart.click();
     await expect(this.addToCartSecondary).toBeVisible();
+    await expect(this.addToCartSecondary).toBeDefined();
     await this.addToCartSecondary.click();
   }
 
